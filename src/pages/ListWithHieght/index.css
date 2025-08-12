@@ -1,4 +1,4 @@
-.listWithHieght{
+.listWithHeight{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,4 +7,7 @@
     flex-wrap: wrap;
     margin-top: 90px;
     margin-bottom: 100px;
+    overflow: auto;
+    height: 100vh;
 }
+

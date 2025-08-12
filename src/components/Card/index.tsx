@@ -1,21 +1,12 @@
-import React from 'react';
 import './card.css';
 
-
-const sampleProduct = {
-  name: 'Wireless Headphones',
-  price: 2999,
-  image: 'https://via.placeholder.com/250x180.png?text=Product+Image'
-};
-
-
-const Card = ({ product={...sampleProduct} }) => {
+const Card = ({ label="" }) => {
   return (
     <div className="product-card">
-      <img src={product.image} alt={product.name} className="product-image" />
+      <img src={'https://picsum.photos/536/354'} alt={label} className="product-image" />
       <div className="product-info">
-        <h3 className="product-name">{product.name}</h3>
-        <p className="product-price">₹{product.price}</p>
+        <h3 className="product-name">{label}</h3>
+        <p className="product-price">{""}</p>
       </div>
     </div>
   );

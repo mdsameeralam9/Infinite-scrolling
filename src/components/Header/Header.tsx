@@ -7,7 +7,7 @@ const Header = () => {
     <div className='header'>
       <h2>Infinite Scrolling With</h2>
       <div className="right">
-        <Link to="/">Screen Hieght</Link>
+        <Link to="/">Screen Height</Link>
         <Link to="/intersection">Intersection Observer</Link>
       </div>
     </div>
