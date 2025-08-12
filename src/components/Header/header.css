@@ -1,0 +1,19 @@
+.header{
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    top: 0;
+}
+
+.right{
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "verbatimModuleSyntax": false,
+    "allowImportingTsExtensions": false,
+    "moduleDetection": "auto",
+    "types": ["jest", "@testing-library/jest-dom"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/**/*",
+    "src/**/*.test.*",
+    "src/**/*.spec.*"
+  ]
+}

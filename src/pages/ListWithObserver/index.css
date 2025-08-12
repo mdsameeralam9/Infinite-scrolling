@@ -1,0 +1,10 @@
+.listWithObserver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+     flex-wrap: wrap;
+         margin-top: 90px;
+         margin-bottom: 100px;
+}
